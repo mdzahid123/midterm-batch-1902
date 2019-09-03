@@ -1,8 +1,8 @@
+
+
 package inheritance;
 
-public interface SymbianPhone {
-
-    /**
+     /**
      *
      * Assume that this is early stage of creating mobile
      *
@@ -12,7 +12,9 @@ public interface SymbianPhone {
      *
      * */
 
+    public interface SymbianPhone {
     public void sendText();
 
     public void makeCall();
+    public void contractList();
 }

@@ -7,16 +7,12 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
-
+/*
 public class DbConnection {
 
     /**
      *
-     * This is a helper class to interact with MySQL Database tables
-     * You are free to enhance this class as needed
      *
-     * */
-
 
    static Connection connect = null;
    static Statement statement = null;
@@ -53,6 +49,8 @@ public class DbConnection {
      * Read database
      *
      * */
+
+/**
 
     public static List<String> readDatabase(String tableNmae, String nameOfColumn1) throws SQLException, ClassNotFoundException, IOException {
 
@@ -116,7 +114,7 @@ public class DbConnection {
      * Create Table
      *
      * */
-
+/*
     public static void createTableFromStringToMySql(String tableName, String columnName){
         try {
             connectMySql();
@@ -140,6 +138,7 @@ public class DbConnection {
      * Insert data to a existing table
      *
      * */
+    /**
     public static void insertDataFromArrayListToMySql(List<String> list,String tableName, String columnName)
     {
         try {
@@ -162,4 +161,4 @@ public class DbConnection {
 
 
 }
-
+**/

@@ -1,9 +1,6 @@
-package java.Reader;
+package jReader;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 
 /**
  *
@@ -15,16 +12,9 @@ public class BufferReaderDemo {
     public static void main(String[] args) throws IOException {
         File jahid = new File("/Users/mdahsanzahid/Documents/IdeaProjects/midtermbatch1902/src/main/resources/Key-To-Success");
 
-        FileReader mama = new FileReader(jahid);
-        BufferedReader obj = new BufferedReader(mama);
+        FileReader md = new FileReader(jahid);
+        BufferedReader obj = new BufferedReader(md);
         int i;
-        while ((i =obj.read())!=-1) {
-            System.out.println((char)i);
-
-
-        }
-
-
-
-
-    }}
+        while ((i =md.read())!=-1) System.out.print((char) i);
+    }
+    }
